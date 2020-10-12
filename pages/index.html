@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>RUN'ZIK</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="topofnav">
+                <div class="network">
+                    <img src="img/facebook-brands-blue.png" alt="facebook">
+                    <img src="img/pinterest-brands.png" alt="pinterest">
+                    <img src="img/twitter-square-brands-blue.png" alt="twitter">
+                </div>
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="other">
+                    <img src="img/istockphoto-967301032-170667a.jpg" alt="">
+                    <img src="img/conexion.png" alt="">
+                    <img src="img/cart-512.png" alt="">
+                </div>
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="deroulant"><a href="#">Nos Produits</a>
+                        <ul class="sous">
+                            <li><a href="#">Montre</a></li>
+                            <li><a href="#">Brassard</a></li>
+                            <li><a href="#">casque</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Nos Technologie</a>
+                    <li><a href="#">Nos Points de Vente</a></li>
+                    <li><a href="#">Medias</a></li>
+                    <li><a href="#">Nous-Contactez</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <form action="page-contact.php" method="post">
+                <div class="labels">
+                    <label for="firstname">Name*</label>
+                    <label for="email">Email*</label>
+                    <label for="phone">Phone</label>
+                    <label for="message">Message*</label>
+                </div>
+                <div class="all-contact">
+                    <div class="two-blocks">
+                        <div class="block-contact">
+                            <input type="text" id="firstname" name="user_first-name" placeholder="First Name" required>
+                        </div>
+                        <div class="block-contact">
+                            <input type="text" id="name" name="user_name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="block-contact">
+                        <input type="text" id="email" name="user_email" placeholder="Email" required>
+                    </div>
+                    <div class="block-contact">
+                        <input type="text" id="telephone" name="user_telephone" placeholder="Phone" required>
+                    </div>
+                    <div>
+                        <textarea id="message" name="user_message" required></textarea>
+                        <p>*Ces informations sont requises.</p>
+                        <p>En soumettant ce formulaire, j’accepte que mes informations soient utilisées exclusivement dans le cadre de ma demande et de la relation commerciale éthique et personnalisée qui pourrait en découler si je le souhaite.</p>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
