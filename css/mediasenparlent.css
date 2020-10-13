@@ -138,7 +138,6 @@ h1 {
 }
 
 p {
-    padding: 50px 0 50px 67%;
     color: #FFF;
     font-family: raleway;
     font-size: 20px;
@@ -147,89 +146,55 @@ p {
 }
 
 footer {
-    width: 100%;
-    height: 350px;
     background-color: #14162D;
-    font-family: MontSerrat;
-    text-align: -webkit-center;
+    margin-top: 50px;
+    height: 350px;
 }
 
-footer p {
-    font-size: 12px;
-    padding: 0;
+.footer-left {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+
+.footer-left img {
+width: 50%;
+padding-top: 50px;
+}
+
+.footer-left p{
     width: 100%;
 }
 
-.newsletter{
-    width: 20%;
-    height: 50%;
-    float: left;
-    text-align: center;
-    color: #fff;
-    margin-top: 2%;
-}
-
-.newsletter img{
-  width: 15%;
-}
-
-.payplug{
-width: 20%;
-height: 50%;
+.footer-beetween {
+width: 600px;
+margin-left: 20%;
 float: left;
-text-align: center;
-position: relative;
-top: 50%;
-right: 20%;
 }
 
-.payplug img{
-    width: 30%;
-    margin-top: 10%;  
+.footer-beetween img {
+    width: 50px;
+    margin: 50px;
+    margin-left: 15%;
 }
 
-.reseaux{
-    width: 20%;
-    position: relative;
-    top: 5%;
-    height: 20%;
-}
-
-.reseaux img{
-    width: 12%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.service{
-    width: 20%;
-    position: relative;
-    top: 25%;
-}
-
-.service p{
-    text-align: center;
-    color: #fff ;
-}
-
-.copyright{
-    width: 15%;
-    position: relative;
-    top: 55%;
-}
-
-.copyright p{
-    text-align: center;
+.footer-beetween p{
     color: #fff;
+    margin-left: 20%;
+    padding-top: 30px;
+    text-align: center;
 }
 
-.contact{
-    width: 15%;
-    margin-right: 1%;
+.footer-right{
     float: right;
-}
-
-.contact p{
+    width: 15%;
     color: #fff;
+    height: 100%;
 }
 
+.footer-right address{
+    text-align: center;
+    margin-top: 150px;
+}
