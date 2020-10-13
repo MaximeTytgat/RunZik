@@ -126,6 +126,7 @@ nav .sous a{
 
 .container{
 width: 80%;
+margin-left: 10%;
 height: 700px;
 }
 
@@ -173,17 +174,19 @@ height: 700px;
 .container_2{
     margin-top: 110px;
     width: 80%;
-    height: 300px;  
+    margin-left: 10%;
+    height: 300px;
 }
 
 .container_2 h1{
-    margin-left: 300px;
-    width: 400px;
+    margin-left: 32.5%;
+    width: 25%;
     color: #319998;
 }
 
 .container_2 p{
-    width: 60%;
+    width: 80%;
+    margin-left: 10%;
     text-align: justify;
     margin-top: 50px;
 
