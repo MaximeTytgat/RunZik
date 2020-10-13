@@ -83,7 +83,7 @@ nav .logo img {
 }
 
 .network {
-    width: 120px;
+    width: 130px;
     float: left;
     margin-top: 1%;
     margin-left: 2%;
@@ -92,7 +92,7 @@ nav .logo img {
 
 .other {
     padding-right: 0;
-    width: 120px;
+    width: 130px;
     float: right;
     margin-top: 1%;
     margin-right: 2%;
@@ -129,6 +129,7 @@ section{
 
 .container{
     width: 80%;
+    margin-left: 10%;
     height: 700px;
 }
 
@@ -151,6 +152,7 @@ section{
 
 .container_2{
     width: 80%;
+    margin-left: 10%;
 }
 
 .container_2 h1{
