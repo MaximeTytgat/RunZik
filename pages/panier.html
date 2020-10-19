@@ -1,100 +1,137 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8">
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../css/panier.css">
-    <title>RUN'ZIK</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/panier.css">
+	<title>Run'Zik</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="topofnav">
-                <div class="network">
-                    <ul>
-                        <li>
-                            <img src="../img/facebook-brands-blue.png" alt="facebook">
-                        </li>
-                        <li>
-                            <img src="../img/pinterest-brands.png" alt="pinterest">
-                        </li>
-                        <li>
-                            <img src="../img/twitter-square-brands-blue.png" alt="twitter">
-                        </li>
-                    </ul>
-                </div>
-                <div class="logo">
-									<a href="../index.html"><img src="../img/logo.png" alt="run'zik"></a>
-                </div>
-                <div class="other">
-                    <ul>
-                        <li>
-                            <img src="../img/istockphoto-967301032-170667a.jpg" alt="search">
-                        </li>
-                        <li>
-                            <img src="../img/conexion.png" alt="connexion">
-                        </li>
-                        <li>
-                            <a href="panier.html"><img src="../img/cart-512.png" alt="cart"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="links">
-                <ul>
-                    <li class="deroulant"><a href="#">Nos Produits</a>
-                        <ul class="sous">
-                            <li><a href="montre.html">Montre</a></li>
-                            <li><a href="brassard.html">Brassard</a></li>
-                            <li><a href="casque.html">casque</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="casque.html">Nos Technologie</a>
-                    <li><a href="nospointsdevente.html">Nos Points de Vente</a></li>
-                    <li><a href="mediasenparlent.html">Medias</a></li>
-                    <li><a href="contact.html">Nous-Contactez</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <section>
-        <div>
-            <h1>Votre panier</h1>
-            <a>Acheter</a>
-        </div>
-    </section>
-    <footer>
-        <div class="newsletter">
-            <img src="../img/envelop.png" alt="envelop">
-            <p>Newsletter</p>
-        </div>
-        <div class="payplug">
-            <img src="../img/payplug_hd_run_zik.png" alt="payplug">
-        </div>
-        <div class="reseaux">
-            <a href="#"><img src="../img/facebook.png" alt="facebook"></a>
-            <a href="#"><img src="../img/pinterest.png" alt="pinterest"></a>
-            <a href="#"><img src="../img/twitter.png" alt="twitter"></a>
-        </div> 
-        <div class="service">
-            <p>Service après vente</p>
-            <p>Satisfait ou Remboursé sous 15 jours</p>
-        </div>
-        <div class="copyright">
-            <a href="#"><p>CGV - Mentions légales</p></a>
-            <p>© 2019-2020 Run'Zik SAS</p>
-        </div>
-        <div class="contact">
-            <p>Contactez-nous:</p>
-            <p>mail: nomprenom@test.com</p>
-            <p>Tel: 07.00.00.00.00.</p> 
-        </div>
-    </footer>
+	<header>
+		<nav>
+			<div class="topofnav">
+				<div class="network">
+					<a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook-brands-blue.png" alt="facebook"></a>
+					<a href="https://www.pinterest.fr/" target="_blank"><img src="../img/pinterest-brands.png" alt="pinterest"></a>
+					<a href="https://twitter.com/?lang=fr" target="_blank"><img src="../img/twitter-square-brands-blue.png" alt="twitter"></a>
+				</div>
+					<div class="logo">
+						<a href="../index.html"><img src="../img/logo.png" alt="run'zik"></a>
+					</div>
+					<div class="user_space">
+						<img src="../img/istockphoto-967301032-170667a.jpg" class="user_icones" alt="search">
+						<img src="../img/conexion.png" class="user_icones" alt="connexion">
+					<div class="dropdown">
+							<a href="panier.html" class="show_cart">
+							<img src="../img/cart-512.png" class="user_icones" alt="cart"></a>
+						<div class="cart">
+							<h2>Panier</h2>
+							<div class="item_in_cart">
+							<div>
+								<img src="../img/montre connectered.jpg" alt="montre connectée">
+							</div>
+							<div>
+								<p class="item_name">Montre</p>
+							</div>
+							<div>
+								<p class="items_quantity">1</p>
+							</div>
+							<div>
+								<button class="button_plus">+</button>
+								<button class="button_minus">-</button>
+							</div>
+							<div>375 &#8364;</div>
+							</div>
+							<div class="item_in_cart">
+							<div>
+								<img src="../img/runningzik-video.jpg" alt="brassard">
+							</div>
+							<div>
+								<p class="item_name">Brassard</p>
+							</div>
+							<div>
+								<p class="items_quantity">1</p>
+							</div>
+							<div>
+								<button class="button_plus">+</button>
+								<button class="button_minus">-</button>
+							</div>
+								<div>33 &#8364;</div>
+							</div>
+							<div class="item_in_cart">
+							<div>
+								<img src="../img/running-woman red.jpeg" alt="écouteurs">
+							</div>
+							<div>
+								<p class="item_name">Casque</p>
+							</div>
+							<div>
+								<p class="items_quantity">1</p>
+							</div>
+							<div>
+								<button class="button_plus">+</button>
+								<button class="button_minus">-</button>
+							</div>
+								<div>189 &#8364;</div>
+							</div>
+							<div>
+								<p class="cart_amount">Montant de votre panier : <span></span> &#8364;</p>
+							</div>
+							<div>
+								<button class="cart_button" href="">Visualiser le panier</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="clear"></div>
+			<div class="links">
+				<ul>
+					<li class="deroulant"><a href="#">Nos Produits</a>
+						<ul class="sous">
+							<li><a href="montre.html">Montre</a></li>
+							<li><a href="brassard.html">Brassard</a></li>
+							<li><a href="casque.html">Casque</a></li>
+						</ul>
+					</li>
+					<li><a href="casque.html">Nos Technologies</a>
+					<li><a href="nospointsdevente.html">Nos Points de Vente</a></li>
+					<li><a href="mediasenparlent.html">Médias</a></li>
+					<li><a href="contact.html">Nous Contacter</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+<section>
+	<div>
+		<h1>Votre panier</h1>
+		<button class="submit">Validez votre panier</button>
+	</div>
+</section>
+<footer>
+	<div class="footer-left">
+		<img src="../img/envelop.png" alt="newsletters">
+		<p class="newsletter">Newsletter</p>
+		<img src="../img/payplug_hd_run_zik.png" alt="payplug">
+	</div>
+	<div class="footer-between">
+		<a href="https://www.facebook.com/"><img src="../img/facebook-brands-blue.png" alt="logo_facebook"></a>
+		<a href="https://www.pinterest.fr/"><img src="../img/pinterest-brands.png" alt="logo_pinterest"></a>
+		<a href="https://twitter.com/"><img src="../img/twitter-square-brands-blue.png" alt="logo_twitter"></a>
+		<p class="customer_service">Service après vente<br>
+						Satisfait ou Remboursé sous 15 jours</p>		
+		<p class="customer_service">CGV - Mentions légales<br>
+				© 2019-2020 Run'Zik SAS</p>
+	</div>
+	<div class="footer-right">
+		<address>
+			Contactez-nous:<br>
+			mail: nomprenom@test.com<br>
+		</address>
+		<a href="tel:+33700000000" class="phone">Tel: 07.00.00.00.00.</a>			
+	</div>
+</footer>
 </body>
+</html>
+	
